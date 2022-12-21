@@ -40,16 +40,15 @@
         {
             "url": "heroku/python"
         },
-],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  }
-}
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
         }
-    ]
+     ],
+    "formation": {
+      "ayiin": {
+        "quantity": 1,
+        "size": "eco"
+      }
+    }
+  }
 }
